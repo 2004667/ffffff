@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120300" V="3" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UACS T="1" S="Unexpected" />
+  </S>
+  <C T="U16" I="0" O="true">
+    <S T="1" F="ETW_EventId" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="false">
+    <S T="1" F="ULS_Category" />
+  </C>
+  <C T="TAG" I="2" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="ETW_TrackbackTag" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="ULS_Tag" />
+      </R>
+    </O>
+  </C>
+  <C T="I32" I="3" O="true">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="ErrIdOptional" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="SH_ErrorId" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="I32" I="4" O="true">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="HROptional" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="SH_ErrorCode" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

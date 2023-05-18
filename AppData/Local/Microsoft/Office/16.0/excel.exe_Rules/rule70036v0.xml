@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="70036" V="0" DC="SM" EN="Office.AirSpace.AirSpaceCreateWindowFailure" ATT="da06315a64204a91b8c35628ae841a61-c2fdf120-6e99-4fdd-900e-ec9868e5e64b-7449" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="343" G="{f562bb8e-422d-4b5c-b20e-90d710f7d11c}" />
+  </S>
+  <C T="U32" I="0" O="false" N="ErrorCode">
+    <S T="1" F="value1" />
+  </C>
+</R>

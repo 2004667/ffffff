@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510017" V="0" DC="SM" EN="Office.DynamicCanvas.MeetingPicker.Unexportable" ATT="350d24c16a934c2d9734791ed7301d8e-73bafc90-ca43-424c-815a-63b076120b49-6725" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <R T="1" R="510016" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="11" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="W" I="0" O="true" N="ContextData">
+    <S T="2" F="0" />
+  </C>
+  <C T="W" I="1" O="true" N="CampaignName">
+    <S T="2" F="1" />
+  </C>
+  <C T="W" I="2" O="true" N="ContentName">
+    <S T="2" F="2" />
+  </C>
+  <C T="U32" I="3" O="true" N="ContentNumber">
+    <S T="2" F="3" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

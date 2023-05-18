@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap2 uap3" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3">
+  <Identity Name="65ff8bd9-e8d3-4581-a27a-75840c41de94" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.0.2302.28004"/>
+  <Properties>
+    <DisplayName>Forms For Excel</DisplayName>
+    <PublisherDisplayName>Microsoft Office Services</PublisherDisplayName>
+    <Logo>icon.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="12.0.0.0"/>
+    <TargetDeviceFamily Name="Platform.All" MinVersion="0.0.0.0" MaxVersionTested="0.0.0.0"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+  <Applications>
+    <Application Id="Microsoft.Office.FA000000112">
+      <uap:VisualElements DisplayName="Forms For Excel" Square150x150Logo="icon.png" Square44x44Logo="icon.png" Description="Forms For Excel" BackgroundColor="transparent" AppListEntry="none"/>
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="office-add-in-contract" Id="Workbook-add-in" PublicFolder="public\Forms For Excel" DisplayName="Forms For Excel" Description="Forms For Excel">
+            <uap3:Properties/>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+</Package>

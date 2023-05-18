@@ -1,0 +1,8 @@
+-------------------------------------
+parent log started
+version: 74.0.2.0
+changelist 524940077 with baseline 522652977 in a mint client based on //depot/branches/drive_fs_release_branch/522652977.1/google3
+-------------------------------------
+2023-04-20T10:48:32.152ZI [6968:log_writer_thread] instrumentation.cc:107:OpenLogFileInDirectory Logging to C:\Users\Ilias\AppData\Local\Google\DriveFS\Logs\parent.txt
+2023-04-20T10:48:32.218ZI [6656:NonCelloThread] drive_fs_main.cc:164:LogExistingCrashReports No existing crash reports found.
+2023-04-20T10:48:32.218ZI [6656:NonCelloThread] drive_fs_main.cc:431:PrintCommandLine C:\Program Files\Google\Drive File Stream\74.0.2.0\GoogleDriveFS.exe --startup_mode 

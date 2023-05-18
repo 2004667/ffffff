@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="703100" V="1" DC="SM" EN="Office.Telemetry.Event.Office.MATS" DL="A" xmlns="">
+  <RIS>
+    <RI N="Event" />
+  </RIS>
+  <S>
+    <UCSS T="1" C="NexusTenantTokenMATS" S="Medium" />
+    <F T="2">
+      <O T="LT">
+        <L>
+          <S T="1" F="EventSamplingPolicy" />
+        </L>
+        <R>
+          <V V="191" T="U8" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="W" I="0" O="false" N="EventName">
+    <S T="2" F="EventName" />
+  </C>
+  <C T="W" I="1" O="true" N="EventContract">
+    <S T="2" F="EventContract" M="Ignore" />
+  </C>
+  <C T="U64" I="2" O="false" N="EventFlags">
+    <S T="2" F="EventFlags" />
+  </C>
+  <C T="D" I="3" O="false" N="EventSampleRate">
+    <V V="1.0" T="D" />
+  </C>
+  <C T="W" I="4" O="false" N="EventData">
+    <S T="2" F="EventData" />
+  </C>
+  <C T="W" I="5" O="false" N="EventContractInfo">
+    <S T="2" F="EventContractInfo" />
+  </C>
+  <C T="W" I="6" O="false" N="EventTypeInfo">
+    <S T="2" F="EventTypeInfo" />
+  </C>
+  <C T="W" I="7" O="false" N="EventDataClassificationInfo">
+    <S T="2" F="EventDataClassificationInfo" />
+  </C>
+  <C T="W" I="8" O="true" N="AriaTenantToken">
+    <V V="faab4ead691e451eb230afc98a28e0f2-4089b390-5e4a-4a54-ac5c-6be4f2ea9321-7247" T="W" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

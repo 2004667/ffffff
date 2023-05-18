@@ -1,0 +1,264 @@
+-------------------------------------
+drive_fs log started
+version: 74.0.2.0
+changelist 524940077 with baseline 522652977 in a mint client based on //depot/branches/drive_fs_release_branch/522652977.1/google3
+-------------------------------------
+2023-04-21T11:57:57.349ZI [7464:log_writer_thread] instrumentation.cc:107:OpenLogFileInDirectory Logging to C:\Users\Ilias\AppData\Local\Google\DriveFS\Logs\drive_fs.txt
+2023-04-21T11:57:57.351ZI [7448:NonCelloThread] drive_fs_main.cc:164:LogExistingCrashReports No existing crash reports found.
+2023-04-21T11:57:57.351ZI [7448:NonCelloThread] drive_fs_main.cc:431:PrintCommandLine C:\Program Files\Google\Drive File Stream\74.0.2.0\GoogleDriveFS.exe --crash_handler_token=\\.\pipe\crashpad_7380_FJFVSFRQEYFGSVHX --parent_version=74.0.2.0 --startup_mode 
+2023-04-21T11:57:57.378ZI [7448:NonCelloThread] drive_fs_main.cc:148:InitializeLanguage Initializing with detected language: ru-RU
+2023-04-21T11:57:57.379ZI [7448:NonCelloThread] i18n.cc:312:InitializeI18n I18n initialized with ru
+2023-04-21T11:57:58.014ZI [7448:NonCelloThread] drive_fs.cc:572:RunDriveFS Options: argv_0: "C:\\Program Files\\Google\\Drive File Stream\\74.0.2.0\\GoogleDriveFS.exe"
+base_path: "C:\\Users\\Ilias\\AppData\\Local\\Google\\DriveFS"
+ipc_pipe_path: "\\\\.\\Pipe\\GoogleDriveFSPipe_Ilias"
+shell_ipc_pipe_path: "\\\\.\\Pipe\\GoogleDriveFSPipe_Ilias_shell"
+crash_handler_token: "\\\\.\\pipe\\crashpad_7380_FJFVSFRQEYFGSVHX"
+enable_tracing: false
+enable_ui: true
+enable_file_dances: true
+enable_poll_for_changes: true
+drive_create_options {
+  use_fake_cloud_store: false
+  authorize_new_user: false
+  refresh_token: ""
+  user_email: ""
+  token_uri: ""
+  auth_uri: ""
+  metadata_server_auth_uri: ""
+  user_id: ""
+}
+enable_field_event_recording: true
+open_gdoc_path: ""
+started_by_installer: false
+locale: ""
+force_onboarding: false
+log_connection_details: false
+use_intranet_connectivity_to_check_online: false
+crash_handler_init_status: SUCCESS
+cello_options {
+  drive_api_options {
+    apiary_trace_token: ""
+    apiary_trace_regex: ""
+    dapper_trace_regex: ""
+    functional_tests_dir_path: ""
+  }
+}
+open_gdocs_root: false
+open_gsheets_root: false
+open_gslides_root: false
+crash_on_core_start: false
+use_curl_logging_scribe: false
+force_case_sensitivity: false
+new_gsuite_file: ""
+account_settings_from_file_path: ""
+parent_version: "74.0.2.0"
+open_all_dialogs: false
+startup_mode: true
+fake_multiaccount_ui: false
+feature_config_override {
+  account {
+  }
+}
+global_feature_config {
+}
+photos_scope: ""
+show_sign_in_dialog_if_no_user: true
+crash_in_execution_context: false
+enable_physical_http_logging: false
+trigger_lost_and_found_event: false
+
+2023-04-21T11:57:58.014ZI [7448:NonCelloThread] drive_fs.cc:163:LogSystemConfig OS: Windows/10.0.22000
+2023-04-21T11:57:58.015ZI [7448:NonCelloThread] drive_fs.cc:170:LogSystemConfig Architecture: x86_64
+2023-04-21T11:57:58.015ZI [7448:NonCelloThread] drive_fs.cc:178:LogSystemConfig Total RAM: 15.92 GiB
+2023-04-21T11:57:58.015ZI [7448:NonCelloThread] drive_fs.cc:193:LogSystemConfig Disk space: 759.07 GB free / 1024.09 GB total
+2023-04-21T11:57:58.015ZI [7448:NonCelloThread] drive_fs.cc:200:LogSystemConfig Timezone: UTC+0000 (UTC)
+2023-04-21T11:57:58.299ZI [7464:log_writer_thread] instrumentation.cc:325:GetStderrFileDescriptor Allocating console to enable stderr.
+2023-04-21T11:57:58.311ZI [7448:NonCelloThread] preferences_manager.cc:111:GetUserPreferences user_preferences for no_user: {
+global {
+  content_cache_base_path: "C:\\Users\\Ilias\\AppData\\Local\\Google\\DriveFS"
+  disable_ssl_validation: false
+  disable_crl_check: false
+  direct_connection: false
+  do_not_show_dialogs {
+    mount_point_changed: false
+    confirm_shared_folder_move_in: false
+    confirm_shared_folder_move_out: false
+    confirm_td_file_move_out: false
+    confirm_move_to_untrusted_td: false
+    warning_move_to_untrusted_td: false
+    warning_td_file_move_out: false
+    warning_shared_folder_move_in: false
+    warning_shared_folder_move_out: false
+  }
+  autostart_on_login: true
+  outlook_attachment_size_threshold_mbytes: 10
+  disable_outlook_plugin: false
+  disable_meet_outlook_plugin: false
+  disable_add_account: false
+  allowed_accounts_pattern: ".*"
+  stalled_progress_seconds: 5
+  open_office_files_in_docs: true
+  enable_smb: false
+  prompt_to_backup_devices: true
+  trust_system_root_certs: false
+  disable_gpu: false
+  search_hot_key: 3378005202305025
+  use_localhost_as_redirect_uri: false
+  pause_syncing_on_metered_connection: false
+}
+account {
+  mount_point_path: "G"
+  disable_realtime_presence: false
+  machine_root_doc_id: ""
+  photos_upload_quality: ORIGINAL_QUALITY
+  photos_upload_screenshots: true
+  photos_upload_raw_files: true
+  old_mirrored_my_drive_path: ""
+  mirrored_my_drive_watch_path: ""
+  show_mount_point_in_sidebar: true
+  mac_smb_port: 0
+  enable_smb_spotlight: false
+}
+}
+2023-04-21T11:57:58.314ZI [7448:NonCelloThread] preferences_manager.cc:315:GetEffectivePreferences effective_preferences for no_user: {
+global {
+  content_cache_base_path: "C:\\Users\\Ilias\\AppData\\Local\\Google\\DriveFS"
+  disable_ssl_validation: false
+  disable_crl_check: false
+  direct_connection: false
+  do_not_show_dialogs {
+    mount_point_changed: false
+    confirm_shared_folder_move_in: false
+    confirm_shared_folder_move_out: false
+    confirm_td_file_move_out: false
+    confirm_move_to_untrusted_td: false
+    warning_move_to_untrusted_td: false
+    warning_td_file_move_out: false
+    warning_shared_folder_move_in: false
+    warning_shared_folder_move_out: false
+  }
+  autostart_on_login: true
+  outlook_attachment_size_threshold_mbytes: 10
+  disable_outlook_plugin: false
+  disable_meet_outlook_plugin: false
+  disable_add_account: false
+  allowed_accounts_pattern: ".*"
+  stalled_progress_seconds: 5
+  open_office_files_in_docs: true
+  enable_smb: false
+  prompt_to_backup_devices: true
+  trust_system_root_certs: false
+  disable_gpu: false
+  search_hot_key: 3378005202305025
+  use_localhost_as_redirect_uri: false
+  pause_syncing_on_metered_connection: false
+}
+account {
+  mount_point_path: "G"
+  disable_realtime_presence: false
+  machine_root_doc_id: ""
+  photos_upload_quality: ORIGINAL_QUALITY
+  photos_upload_screenshots: true
+  photos_upload_raw_files: true
+  old_mirrored_my_drive_path: ""
+  mirrored_my_drive_watch_path: ""
+  show_mount_point_in_sidebar: true
+  mac_smb_port: 0
+  enable_smb_spotlight: false
+}
+}
+2023-04-21T11:57:58.025ZE [7448:NonCelloThread] config.cc:224:UNKNOWN NOT_FOUND: CreateFileW failed during OpenHandleForPath [type.googleapis.com/drive.ds.Status='UNAVAILABLE_RESOURCE'] [type.googleapis.com/util.ErrorSpacePayload='cello::util::WindowsErrorSpace::Не удается найти указанный файл']
+=== Source Location Trace: ===
+apps/drive/cello/util/file_system.cc:505
+apps/drive/cello/util/file_system.cc:440
+apps/drive/cello/util/file_system.cc:1360
+2023-04-21T11:57:58.324ZI [7640:ipc_thread] ipc_socket_win.cc:274:GetNextConnection Accepting next connection
+2023-04-21T11:57:58.326ZI [7448:NonCelloThread] app.cc:633:RegisterOutlookAddInHelper Google Drive Outlook Add-in: Outlook add-in already unregistered.
+2023-04-21T11:57:58.331ZI [7448:NonCelloThread] app.cc:633:RegisterOutlookAddInHelper Google Meet Outlook Add-in: Outlook add-in already unregistered.
+2023-04-21T11:57:58.526ZI [7448:NonCelloThread] dialog.cc:79:ResetViewViaDifferencer Resetting UpdateViewDifferencer.
+2023-04-21T11:57:58.564ZI [7896:VolumeListenerThread] volume_listener_win.cc:448:GetVolumeFromGuidPath \\?\Volume{1eb67525-cf23-416c-b36a-327e7bf89459}\ description. name: System, uuid: 1eb67525-cf23-416c-b36a-327e7bf89459, device_number: 921297342, mount_point: C:\, fs_type: NTFS, device_type: Internal
+2023-04-21T11:57:58.568ZI [7884:MediaManagerThread] device_status_service.cc:323:AddMediaInternal Media was added [Media: media_id="1eb67525-cf23-416c-b36a-327e7bf89459" name="System" file_system="NTFS" mount_point(raw)="C:\" device_type="Internal" device_number=921297342 writable="true"]
+2023-04-21T11:57:58.575ZI [7896:VolumeListenerThread] volume_listener_win.cc:448:GetVolumeFromGuidPath \\?\Volume{b54aa03b-7d55-4dbd-ae3c-7d7cbb6b1f0f}\ description. name: , uuid: b54aa03b-7d55-4dbd-ae3c-7d7cbb6b1f0f, device_number: 2598367525, mount_point: , fs_type: FAT, device_type: Internal
+2023-04-21T11:57:58.578ZE [7896:VolumeListenerThread] volume_listener_win.cc:455:GetVolumeFromGuidPath \\?\Volume{b54aa03b-7d55-4dbd-ae3c-7d7cbb6b1f0f}\ has no mount point.
+2023-04-21T11:57:58.579ZI [7640:ipc_thread] ipc_socket_win.cc:274:GetNextConnection Accepting next connection
+2023-04-21T11:57:58.593ZI [7908:SwitchbladeDelegateImpl] switchblade_installer.cc:78:InstallSwitchblade Switchblade Chrome extension is already installed.
+2023-04-21T11:57:58.595ZI [7908:SwitchbladeDelegateImpl] switchblade_installer_win.cc:52:InstallSwitchbladeNativeHostManifest Installing Switchblade native host manifest...
+2023-04-21T11:57:58.596ZI [7908:SwitchbladeDelegateImpl] switchblade_installer_win.cc:67:InstallSwitchbladeNativeHostManifest Switchblade native host manifest written to C:\Users\Ilias\AppData\Local\Google\DriveFS\com.google.drive.nativeproxy.json
+2023-04-21T11:57:58.597ZI [7908:SwitchbladeDelegateImpl] switchblade_installer_win.cc:86:InstallSwitchbladeNativeHostManifest Switchblade native host manifest written to C:\Users\Ilias\AppData\Local\Google\DriveFS\com.google.drive.nativeproxy.json and configured in registry
+2023-04-21T11:57:58.605ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:57:58.606ZI [7448:NonCelloThread] curl_api.cc:1345:Create SSL verification with built in certificates
+2023-04-21T11:57:58.609ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:57:58.610ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:57:58.611ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:234:UpdateState Notifying of change to state Offline
+2023-04-21T11:57:58.725ZI [7448:NonCelloThread] client.cc:550:LogWindowsFilterDrivers Nonstandard filter drivers present: bindflt.sys (556d9232df19b942)
+2023-04-21T11:57:58.727ZI [7448:NonCelloThread] client.cc:555:LogWindowsFilterDrivers Nonstandard filter driver combo hash: 556d9232df19b942
+2023-04-21T11:57:58.731ZI [7448:NonCelloThread] uiext.cc:71:SaveFlagsToRegistry Set Explorer extension keys.
+2023-04-21T11:57:58.867ZI [7448:NonCelloThread] uiext.cc:71:SaveFlagsToRegistry Set Explorer extension keys.
+2023-04-21T11:58:03.747ZI [7448:NonCelloThread] drive_fs.cc:415:operator() Startup tracing disabled
+2023-04-21T11:58:03.749ZI [3388:trace_writer_thread] instrumentation.cc:636:operator() Writing Chrome Trace to C:\Users\Ilias\AppData\Local\Google\DriveFS\Logs\startup_trace_2023-04-21T11_58_03.json
+2023-04-21T11:58:03.756ZI [3388:trace_writer_thread] instrumentation.cc:638:operator() Trace successfully written
+2023-04-21T11:58:12.542ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:12.543ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:12.544ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:12.545ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:12.546ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:12.547ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:12.547ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:12.548ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:12.548ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:12.551ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:12.552ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:12.553ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:12.756ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:12.757ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:323:CheckConnection Failed to get network cost: 0x800704C6
+2023-04-21T11:58:12.758ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:12.758ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:13.860ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:13.865ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:13.880ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:13.888ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:13.891ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:13.894ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:13.904ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:13.914ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:13.949ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:13.958ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:13.998ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.001ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.002ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.003ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.003ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:14.008ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.010ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.011ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.012ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.014ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.024ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:14.028ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:14.035ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.038ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.043ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.046ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:14.059ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.070ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.072ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.076ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.076ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:14.082ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.085ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.086ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.090ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:14.094ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.096ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.101ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.101ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.104ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.105ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:14.109ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:355:CheckConnection This adapter is: Offline
+2023-04-21T11:58:14.112ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Offline
+2023-04-21T11:58:14.115ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Offline, so not notifying.
+2023-04-21T11:58:14.510ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2023-04-21T11:58:14.514ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2023-04-21T11:58:14.515ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2023-04-21T11:58:14.517ZI [7912:NetworkStatusListener_COM] network_status_listener_win.cc:234:UpdateState Notifying of change to state Online
+2023-04-21T11:59:28.145ZI [7920:proxy_resolver_thread] proxy.cc:172:GetProxyForUrlInternal Proxy type resolved to 0

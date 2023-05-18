@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10627" V="1" DC="SM" EN="Office.Outlook.Desktop.PeoplePickerSelectionSourceRelevancy" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <R T="1" R="11265" />
+    <TI T="2" I="Daily" />
+    <A T="3" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="0" />
+      <F N="1" />
+    </S>
+  </G>
+  <C T="I32" I="0" O="false" N="SearchSourceId">
+    <S T="1" F="0" />
+  </C>
+  <C T="W" I="1" O="false" N="SearchSourceName">
+    <S T="1" F="1" />
+  </C>
+  <C T="D" I="2" O="false" N="AverageItemRank">
+    <A T="AVG">
+      <S T="1" F="2" />
+    </A>
+  </C>
+  <C T="U32" I="3" O="false" N="DisplayNameMatchCount">
+    <A T="SUM">
+      <S T="1" F="3" />
+    </A>
+  </C>
+  <C T="U32" I="4" O="false" N="EmailAddressMatchCount">
+    <A T="SUM">
+      <S T="1" F="4" />
+    </A>
+  </C>
+  <C T="U32" I="5" O="false" N="FuzzyMatchCount">
+    <A T="SUM">
+      <S T="1" F="5" />
+    </A>
+  </C>
+  <C T="U32" I="6" O="false" N="PositionZeroCount">
+    <A T="SUM">
+      <S T="1" F="6" />
+    </A>
+  </C>
+  <C T="U32" I="7" O="false" N="PositionOneCount">
+    <A T="SUM">
+      <S T="1" F="7" />
+    </A>
+  </C>
+  <C T="U32" I="8" O="false" N="PositionTwoCount">
+    <A T="SUM">
+      <S T="1" F="8" />
+    </A>
+  </C>
+  <C T="U32" I="9" O="false" N="PositionThreeCount">
+    <A T="SUM">
+      <S T="1" F="9" />
+    </A>
+  </C>
+  <C T="U32" I="10" O="false" N="PositionFourCount">
+    <A T="SUM">
+      <S T="1" F="10" />
+    </A>
+  </C>
+  <C T="U32" I="11" O="false" N="PositionFivePlusCount">
+    <A T="SUM">
+      <S T="1" F="11" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+</R>

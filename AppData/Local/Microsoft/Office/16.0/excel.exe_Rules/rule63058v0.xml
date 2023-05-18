@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63058" V="0" DC="SM" EN="Office.Identity.ADALOnTopOfWAMSignal" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="biu0c" />
+    <TI T="2" I="Hourly" />
+    <A T="3" E="TelemetrySuspend" />
+    <A T="4" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="ULS_Tag" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="FirstTimestamp">
+    <A T="MIN">
+      <S T="1" F="TimeStamp100ns" />
+    </A>
+  </C>
+  <C T="TAG" I="1" O="false" N="Tag">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="U32" I="2" O="false" N="TagCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="FT" I="3" O="false" N="LastTimestamp">
+    <A T="MAX">
+      <S T="1" F="TimeStamp100ns" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+</R>
